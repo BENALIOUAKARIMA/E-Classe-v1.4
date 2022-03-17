@@ -1,0 +1,46 @@
+* {
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+    color: black;
+}
+
+#hum-menu {
+    display: none;
+}
+
+#sidebar {
+    background-color: #FAFFC1;
+    width: 200px;
+    height: 648px;
+}
+
+
+.card {
+    background: #FAFFC1;
+    border: none;
+}
+
+.list-group a {
+    background-color: #FAFFC1;
+    border: none;
+}
+@media only screen and (max-width:800px) {
+    nav {
+        display: none;
+    }
+    #hum-menu {
+        display: block;
+    }
+    #check:checked+#sidebar {
+        display: block;
+        width: 50%;
+    }
+    #ico {
+        display: none;
+    }
+    
+    
+}
